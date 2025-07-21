@@ -13,7 +13,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to {person.firstName}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about my projects, thoughts, and experiences.
@@ -60,7 +60,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Ronnie, a dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
+      I&apos;m Ronnie, a dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
     </>
   ),
 };
@@ -86,7 +86,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I'm currently a system support specialist and web developer passionate about building secure networks and intuitive digital experiences. With over a decade in IT and cloud tech, I bring creative problem-solving and hands-on expertise to everything from enterprise networking to front-end frameworks. Powered by my wife, three kids, and a healthy dose of dad humor, I approach tech with heart, hustle, and a touch of fun.
+        I&apos;m currently a system support specialist and web developer passionate about building secure networks and intuitive digital experiences. With over a decade in IT and cloud tech, I bring creative problem-solving and hands-on expertise to everything from enterprise networking to front-end frameworks. Powered by my wife, three kids, and a healthy dose of dad humor, I approach tech with heart, hustle, and a touch of fun.
       </>
     ),
   },
