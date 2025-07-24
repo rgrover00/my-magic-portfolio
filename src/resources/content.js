@@ -99,7 +99,7 @@ const about = {
         timeframe: "2024 - Present",
         role: "System Support Specialist II - Networking",
         achievements: [
-          <span key="achievement1">Maintain and optimize network systems to ensure secure, reliable, and scalable connectivity across the organization. Utilize expertise in Extreme Switching and EXOS, backed by Extreme Networks certifications, to implement and troubleshoot advanced networking solutions..</span>,
+          <span key="achievement1">Maintain and optimize network systems to ensure secure, reliable, and scalable connectivity across the organization. Utilize expertise in Extreme Switching and EXOS, backed by Extreme Networks certifications, to implement and troubleshoot advanced networking solutions.</span>,
           <span key="achievement2">Provide technical support for network-related issues, collaborating with cross-functional teams to enhance IT operations and ensure seamless system performance. Leverage certifications to deliver efficient solutions and uphold industry best practices.</span>
       ],
         images: [
