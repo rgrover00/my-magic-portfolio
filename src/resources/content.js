@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name} - Look for what you can't see`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Connecting People and Code</>,
+  headline: <>Hello, World🌎! I&apos;m Ronnie</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">2D Grover Journey</strong></>,
@@ -60,7 +60,7 @@ const home = {
   },
   subline: (
     <>
-      I&apos;m Ronnie, a dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
+      Dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
     </>
   ),
 };
