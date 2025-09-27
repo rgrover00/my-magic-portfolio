@@ -60,7 +60,7 @@ const home = {
   },
   subline: (
     <>
-      I&apos;m Ronnie, a dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
+      I&apos;m Ronnie, dad developer and network engineer. I help secure, troubleshoot, and build networks. After hours, I dive into web development, self-hosted tools, and the occasional lego castle.
     </>
   ),
 };
