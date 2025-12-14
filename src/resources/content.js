@@ -1,3 +1,6 @@
+import { FaLinkedin } from "react-icons/fa";
+import { LiaLinkedin } from "react-icons/lia";
+
 const person = {
   firstName: "Ronnie",
   lastName: "Grover",
@@ -33,11 +36,6 @@ const social = [
     name: "LinkedIn",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/ronniegrover/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@ronniekgrover",
   },
   {
     name: "Email",
@@ -77,9 +75,10 @@ const about = {
   avatar: {
     display: true,
   },
-  calendar: {
+  FaLinkedin: {
     display: true,
-    link: "https://cal.com/ronniegrover",
+    link: "https://www.linkedin.com/in/ronniegrover/",
+    icon: "linkedin",
   },
   intro: {
     display: true,
@@ -354,4 +353,100 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+const gallery2 = {
+  path: "/gallery2",
+  label: "Photos",
+  title: `Photo Collection – ${person.name}`,
+  description: `Another photo collection by ${person.name}`,
+  // These are placeholder images, replace with your own
+  images: [
+    // Alternating pattern: horizontal, vertical, horizontal, vertical...
+    {
+      src: "/images/gallery2/horizontal-1.jpg",
+      alt: "Gallery2 image 1",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-1.jpg",
+      alt: "Gallery2 image 2",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-2.jpg",
+      alt: "Gallery2 image 3",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-2.jpg",
+      alt: "Gallery2 image 4",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-3.jpg",
+      alt: "Gallery2 image 5",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-3.jpg",
+      alt: "Gallery2 image 6",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-4.jpg",
+      alt: "Gallery2 image 7",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-4.jpg",
+      alt: "Gallery2 image 8",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-5.jpg",
+      alt: "Gallery2 image 9",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-5.jpg",
+      alt: "Gallery2 image 10",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-6.jpg",
+      alt: "Gallery2 image 11",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-6.jpg",
+      alt: "Gallery2 image 12",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-7.jpg",
+      alt: "Gallery2 image 13",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/vertical-7.jpg",
+      alt: "Gallery2 image 14",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery2/horizontal-8.jpg",
+      alt: "Gallery2 image 15",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/horizontal-9.jpg",
+      alt: "Gallery2 image 16",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery2/horizontal-10.jpg",
+      alt: "Gallery2 image 17",
+      orientation: "horizontal",
+    }, 
+  ],
+};
+
+export { person, social, newsletter, home, about, blog, work, gallery, gallery2 };
